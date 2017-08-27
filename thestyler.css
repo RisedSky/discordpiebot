@@ -8,9 +8,9 @@ body {
   min-height: 100vh;
 }
 
-        nav {
-          background-color: #1a1a1a;
-        }
+nav {
+background-color: #1a1a1a;
+}
         .btn-large {
           font-size: 500px;
           background: linear-gradient(135deg, #000000, #282828);
