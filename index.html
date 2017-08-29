@@ -14,7 +14,7 @@
        <link rel="icon" href="icon.ico" type="image/x-icon">
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
-</style>
+ </style>
 </head>
 <body>
   <nav class="nav-extended bacjsd">
@@ -35,10 +35,31 @@
         <li><a href="404.html">Blog</a></li>
         <li><a href="404.html">Contact Us!</a></li>
       </ul>
+      <ul class="nav right">
+       <li><a id="dark" class="waves-effect waves-light btn-large" style="align:center;">Invite me!</a></li>
    </nav>
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
 <script>
+ var darkEnabled = false; 
+$(document).ready(function() {
+        $("#dark").on("click", switchDarkMode);
+        $("#reset").on("click", reset);
+        }
+      );
+      
+      function switchDarkMode(){
+        darkEnabled = !darkEnabled;
+        if(darkEnabled){
+          $("body").addClass("darkmode");
+        } else {
+          $("body").removeClass("darkmode");
+        }
+      }
+      
+      function reset(){
+        $("body").removeClass("darkmode");
+      }
 $(document).ready(function(){
     $('.tooltipped').tooltip({delay: 50});
   });
