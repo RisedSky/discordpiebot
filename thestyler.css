@@ -12,15 +12,23 @@ body {
   color: white;
   transition: background-color 0.2s;
 }
-.darkmode.btn-large{
-	font-size: 500px;
-          background: white;
+.darkmode .btn-large{
+          background-color: white;
 	color: black;
+	transition: background-color 0.2s;
 }
-.darkmode.btn{
-	font-size: 500px;
-          background: white;
+.darkmode .btn{
+          background-color: white;
 	color: black;
+	transition: background-color 0.2s;
+}
+.darkmode .collapsible-header{
+          background-color: #494949;
+	transition: background-color 0.2s;
+}
+.darkmode .collapsible-header{
+          background-color: #2E2E2E;
+	transition: background-color 0.2s;
 }
 nav {
 background-color: #1a1a1a;
