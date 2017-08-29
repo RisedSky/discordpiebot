@@ -8,9 +8,11 @@ body {
   min-height: 100vh;
 }
 .darkmode{
+	container {
   background-color: #373a3c;
   color: white;
   transition: background-color 0.3s;
+	}
 	.btn-large {
           font-size: 500px;
           background: white;
