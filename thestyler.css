@@ -8,19 +8,19 @@ body {
   min-height: 100vh;
 }
 .darkmode{
-	body {
   background-color: #373a3c;
   color: white;
   transition: background-color 0.2s;
-	}
-	.btn-large {
-          font-size: 500px;
+}
+.darkmode.btn-large{
+	font-size: 500px;
           background: white;
-        }
-	.btn {
-          font-size: 500px;
+	color: black;
+}
+.darkmode.btn{
+	font-size: 500px;
           background: white;
-        }
+	color: black;
 }
 nav {
 background-color: #1a1a1a;
