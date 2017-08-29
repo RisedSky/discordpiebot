@@ -14,6 +14,10 @@
        <link rel="icon" href="icon.ico" type="image/x-icon">
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+ body.dark-mode {
+    background: black;
+    font-color: white;
+}
 </style>
 </head>
 <body>
@@ -51,6 +55,18 @@ $(document).ready(function(){
   closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
   draggable: true, // Choose whether you can drag to open on touch screens,
 });
+ $('#mode').change(function(){   
+    
+    if ($(this).prop('clicked'))
+    {
+        $('body').addClass('dark-mode');
+    }
+    else
+    {
+        $('body').removeClass('dark-mode');
+    }
+    
+});
  </script>
  <div class="parallax-container" id="middlething">
     <div class="jeff parallax"><video autoplay="" loop="">
@@ -65,6 +81,7 @@ $(document).ready(function(){
     <br>
   <br>
 <br>
+  <center><a id="mode" href="https://discordapp.com/oauth2/authorize?client_id=288221668290068480&scope=bot&permissions=1547041863" class="waves-effect waves-light btn-large" style="align:center;"><i class="material-icons left">create</i>Dark Mode.</a></center>
 <div class="slider4">
     <center><img class=" hvr-float" width=325px height=125px src="newlogoha.png"></cemter>
  <h1 style="color:white;"><b>Pie</b>Bot</h1>
