@@ -16,6 +16,27 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 </style>
+	<script>
+	 var darkEnabled = false; 
+$(document).ready(function() {
+        $("#dark").on("click", switchDarkMode);
+        $("#reset").on("click", reset);
+        }
+      );
+      
+      function switchDarkMode(){
+        darkEnabled = !darkEnabled;
+        if(darkEnabled){
+          $("body").addClass("darkmode");
+        } else {
+          $("body").removeClass("darkmode");
+        }
+      }
+      
+      function reset(){
+        $("body").removeClass("darkmode");
+      }
+	</script>
 </head>
 <body>
    <nav class="nav-extended bacjsd">
@@ -42,25 +63,6 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 	      <script type="text/javascript" src="name.js"></script>
 <script>
-	 var darkEnabled = false; 
-$(document).ready(function() {
-        $("#dark").on("click", switchDarkMode);
-        $("#reset").on("click", reset);
-        }
-      );
-      
-      function switchDarkMode(){
-        darkEnabled = !darkEnabled;
-        if(darkEnabled){
-          $("body").addClass("darkmode");
-        } else {
-          $("body").removeClass("darkmode");
-        }
-      }
-      
-      function reset(){
-        $("body").removeClass("darkmode");
-      }
  $(document).ready(function(){
       $('.parallax').parallax();
     });
