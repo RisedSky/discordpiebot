@@ -29,7 +29,7 @@ body {
 	transition: background-color 0.2s;
 }
 .darkmode .collapsible-header{
-          background-color: #222222;
+          background-color: #383838;
 	transition: background-color 0.2s;
 }
 nav {
