@@ -28,7 +28,7 @@ body {
           background-color: #494949;
 	transition: background-color 0.2s;
 }
-.darkmode .collapsible-header{
+.darkmode .collapsible-body{
           background-color: #383838;
 	transition: background-color 0.2s;
 }
