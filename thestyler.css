@@ -33,6 +33,7 @@ body {
 	transition: background-color 0.2s;
 }
 nav {
+	position: fixed;
 background-color: #1a1a1a;
 }
         .btn-large {
