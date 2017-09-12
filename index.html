@@ -22,23 +22,45 @@
  </style>
 </head>
 <body>
-     <nav class="bacjsd nav-extended">
-       <ul>
- <li><a href="index.html">Home</a></li>
-        <li><a href="commands.html">Commands</a></li>
-        <li><a href="404.html">Blog</a></li>
-        <li><a href="404.html">Dev Team</a></li>
-          <li><div class="switch">
-		               <form action="">
-            <label>
-              Light
+<!-- Nav Bar -->
+<nav>
+      <div class="fixed nav-wrapper">
+        <a data-activates="mobile-demo" class="ok button-collapse"><i class="material-icons">menu</i></a>
+        <a data-activates="mobile-demo" class="ok ha">
+          <div class="switch" style="margin-left:80%;">
+            <label style="font-size:15px;color:black;">
               <input type="checkbox" id="dark">
               <span class="lever"></span>
-              Dark
             </label>
-          </div></li>
-      </ul>
-   </nav>
+          </div>
+        </a>
+        <ul class="left hide-on-med-and-down">
+          <li><a class="ok" href="index.html"><i class="material-icons">home</i></a></li>
+          <li><a class="ok" href="commands.html">Commands</a></li>
+          <li><a class="ok" href="blog.html">Blog</a></li>
+          <li><a class="ok" href="joindevs.html">Dev Team</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <div class="switch" style="margin-right:30px">
+              <label style="font-size:15px;color:black;">
+                Light
+                <input type="checkbox" id="dark">
+                <span class="lever"></span>
+                Dark
+              </label>
+            </div>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html"><i class="material-icons">home</i></a></li>
+          <li><a href="commands.html">Commands</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="joindevs.html">Dev Team</a></li>
+        </ul>
+      </div>
+    </nav>
+<!-- JS Stuff -->
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
 <script>
@@ -74,6 +96,7 @@ $(document).ready(function(){
     draggable: 'true',
   });
  </script>
+	<!-- Body -->
  <div class="parallax-container" id="middlething">
     <div class="jeff parallax"><video autoplay="" loop="">
     <source src="waitingha.mp4" type="video/mp4">
