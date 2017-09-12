@@ -68,6 +68,12 @@
 $(document).ready(function() {
         $("#dark").on("click", switchDarkMode);
         $("#reset").on("click", reset);
+	$('.button-collapse').sideNav({
+    menuWidth: '300',
+    edge: 'left',
+    closeOnClick: 'true',
+    draggable: 'true',
+  });
         }
       );
       
@@ -89,12 +95,6 @@ $(document).ready(function(){
  $(document).ready(function(){
       $('.parallax').parallax();
     });
- $('.button-collapse').sideNav({
-    menuWidth: '300',
-    edge: 'left',
-    closeOnClick: 'true',
-    draggable: 'true',
-  });
  </script>
 	<!-- Body -->
  <div class="parallax-container" id="middlething">
