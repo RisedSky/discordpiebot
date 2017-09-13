@@ -8,8 +8,7 @@ html {
 	border-radius: 3px;
 	background-color: rgba(0, 0, 0, 0.0);
 	color: white;
-	border-color: linear-gradient(180deg, #ff0061, #ce0000);
-	border-width: 9px;
+	border-width: 15px;
 	padding: 21px 60px;
 	text-align: center;
 	text-decoration: none;
@@ -17,9 +16,10 @@ html {
 	font-size: 32px;
 	transition: box-shadow 0.2s ease;
 	border: solid;
-	transition: background-color 0.2s ease;
+	transition: background-color 1s ease;
 }
 .plus {
+	font-size: 35px;
 	transform: rotate(180deg);
 	transition: transform 0.2s ease;
 }
@@ -29,19 +29,20 @@ html {
 }
 .button:hover {
 	border-radius: 3px;
-	background-color: rgba(255, 255, 255, 0.0);
+	background-color: rgba(255, 255, 255, 0.5);
 	color: white;
-	border-color: linear-gradient(180deg, #ff0061, #ce0000);
+	color: black;
 	padding: 21px 60px;
 	border-width: 3px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 32px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transition: box-shadow 0.2s ease;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 10px 10px 10px 10px rgba(0, 0, 0, 0.19);
+	transition: color 1s ease;
+	transition: box-shadow 0.5s ease;
 	border: solid;
-	transition: background-color 0.2s ease;
+	transition: background-color 1s ease;
 }
 .nav {
 	height: 65px;
