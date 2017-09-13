@@ -3,6 +3,7 @@ html {
 	font-family: 'Montserrat', sans-serif;
 		animation: jeff 3s;
 			animation: behind 3s;
+	    overflow:hidden;
 }
 .button {
 	border-radius: 3px;
