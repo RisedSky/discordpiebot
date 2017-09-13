@@ -20,7 +20,7 @@ html {
 	transition: color 1s ease;
 }
 .plus {
-	font-size: 35px;
+	font-size: 45px;
 	transform: rotate(180deg);
 	transition: transform 0.2s ease;
 }
@@ -140,13 +140,3 @@ html {
 	    background-position: 100% 100%
 }
 }
-
-@keyframes amazing {
-	0% {
-	    background-position: 0% 0%
-}
-100% {
-	    background-position: 100% 100%
-}
-}
-
