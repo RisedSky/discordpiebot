@@ -5,6 +5,12 @@ html {
 			animation: behind 3s;
 overflow: scroll;
 }
+body {
+   top: 0;
+    left: 0;
+	bottom: 0;
+    right: 0;
+}
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
