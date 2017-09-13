@@ -24,7 +24,6 @@ html {
 	transition: transform 0.2s ease;
 }
 .plus:hover {
-	font-size: 34px;
 	transform: rotate(0deg);
 	transition: transform 0.2s ease;
 }
