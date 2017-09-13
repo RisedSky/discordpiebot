@@ -6,20 +6,20 @@ html {
 }
 .button {
 	border-radius: 3px;
-	background: linear-gradient(180deg, #383838, #707070);
+	background-color: rgba(0, 0, 0, 0.0);
 	color: white;
-	border: white;
-	border-width: 3px;
-	padding: 30px 75px;
+	border: linear-gradient(180deg, #ff0061, #ce0000);
+	border-width: 9px;
+	padding: 21px 60px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 32px;
 	transition: box-shadow 0.2s ease;
 	border: solid;
+	transition: background-color 0.2s ease;
 }
 .plus {
-	font-size: 34px;
 	transform: rotate(180deg);
 	transition: transform 0.2s ease;
 }
@@ -29,10 +29,10 @@ html {
 }
 .button:hover {
 	border-radius: 3px;
-	background: linear-gradient(180deg, #383838, #707070);
+	background-color: rgba(255, 255, 255, 0.0);
 	color: white;
-	border-color: white;
-	padding: 30px 75px;
+	border: linear-gradient(180deg, #ff0061, #ce0000);
+	padding: 21px 60px;
 	border-width: 3px;
 	text-align: center;
 	text-decoration: none;
@@ -41,6 +41,7 @@ html {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: box-shadow 0.2s ease;
 	border: solid;
+	transition: background-color 0.2s ease;
 }
 .nav {
 	height: 65px;
@@ -62,6 +63,7 @@ html {
 	  background-size: 10000% 10000%;
 	  filter: background-blur(20px);
 	  font-size: 280%;
+	animation: amazing ease 0.2s;
 } 
 
 .behind {
@@ -136,3 +138,13 @@ html {
 	    background-position: 100% 100%
 }
 }
+
+@keyframes amazing {
+	0% {
+	    background-position: 0% 0%
+}
+100% {
+	    background-position: 100% 100%
+}
+}
+
