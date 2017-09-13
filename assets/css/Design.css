@@ -3,7 +3,11 @@ html {
 	font-family: 'Montserrat', sans-serif;
 		animation: jeff 3s;
 			animation: behind 3s;
-	    overflow:hidden;
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 .button {
 	border-radius: 3px;
