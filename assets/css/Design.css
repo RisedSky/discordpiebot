@@ -4,8 +4,6 @@ html {
 		animation: jeff 3s;
 			animation: behind 3s;
 overflow: scroll;
-background-image: linear-gradient(180deg, #ff0000, #ff7f00, #ffc700, #76ff00, #00d4ff, #0015ff, #ff00f6);
-animation: herobackground 5s ease infinite;
 }
 ::-webkit-scrollbar {
     width: 0px;
