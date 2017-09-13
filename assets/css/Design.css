@@ -15,6 +15,7 @@ html {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 32px;
+	transition: box-shadow 0.2s ease;
 }
 .button:hover {
 	border-radius: 3px;
