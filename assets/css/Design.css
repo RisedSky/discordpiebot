@@ -16,20 +16,22 @@ html {
 	display: inline-block;
 	font-size: 32px;
 	transition: box-shadow 0.2s ease;
+	border: solid;
 }
 .button:hover {
 	border-radius: 3px;
 	background: linear-gradient(180deg, #383838, #707070);
 	color: white;
-	border: white;
+	border-color: white;
 	padding: 30px 75px;
-		border-width: 3px;
+	border-width: 3px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 40px;
+	font-size: 32px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: box-shadow 0.2s ease;
+	border: solid;
 }
 .nav {
 	height: 65px;
