@@ -18,6 +18,16 @@ html {
 	transition: box-shadow 0.2s ease;
 	border: solid;
 }
+.plus {
+	font-size: 34px;
+	transform: rotate(180deg);
+	transition: transform 0.2s ease;
+}
+.plus:hover {
+	font-size: 34px;
+	transform: rotate(180deg);
+	transition: transform 0.2s ease;
+}
 .button:hover {
 	border-radius: 3px;
 	background: linear-gradient(180deg, #383838, #707070);
