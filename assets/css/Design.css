@@ -31,7 +31,7 @@ animation: herobackground 5s ease infinite;
 font-size: 150px;
 }
 .plus {
-	font-size: 45px;
+	size: 45px;
 	transform: rotate(0deg);
 	transition: transform 0.25s ease;
 }
