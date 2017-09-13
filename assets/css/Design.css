@@ -67,7 +67,13 @@ html {
 	  font-size: 280%;
 	animation: amazing ease 0.2s;
 } 
-
+.container1 {
+	height: 100px;
+	width: 100px;
+	color: white;
+	text-align: center;
+	background-color: #262626;
+}
 .behind {
 	animation: image 4s;
 	background-size: 100%;
