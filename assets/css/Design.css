@@ -4,12 +4,16 @@ html {
 		animation: jeff 3s;
 			animation: behind 3s;
 overflow: scroll;
+	padding: 0;
+	margin: 0;
 }
 body {
  top: 0;
     left: 0;
    bottom: 0;
     right: 0;
+	padding: 0;
+	margin: 0;
 }
 ::-webkit-scrollbar {
     width: 0px;
